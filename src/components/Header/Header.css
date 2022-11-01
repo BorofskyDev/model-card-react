@@ -19,12 +19,19 @@
     background-blend-mode: multiply;
 }
 
+.red__header.header__image {
+    background-color: rgba(109, 0, 25, 0.9);
+    background-image: url(../../images/red.jpg);
+}
+
 .header__toggler {
     margin: 1em 0;
     display: flex;
     align-items: center;
     font-size: 1.7rem;
 }
+
+
 
 .header__toggler--slider {
     width: 8em;
@@ -39,6 +46,13 @@
     border: 1px solid #009AFF;
     box-shadow: 0 0 0.375em 0.125em rgba(0, 154, 255, 0.8) inset;
     box-sizing: content-box;
+}
+
+.red__toggler.header__toggler--slider {
+    justify-content: flex-end;
+    background-color: #6D0019;
+    border-color: #FF003A;
+     box-shadow: 0 0 0.375em 0.125em rgba(255, 0, 58, 0.87) inset;
 }
 
 .header__toggler--circle {
