@@ -12,6 +12,12 @@
   letter-spacing: 0.125em;
   text-shadow: 0 0 0.25em rgba(0, 154, 255, 0.8),
     0 0 0.5em rgba(0, 26, 101, 0.4);
+  transition: all 500ms ease-in-out;
+}
+
+.red__text--shadow {
+  text-shadow: 0 0 0.25em rgba(255, 0, 58, 0.8), 0 0 0.5em rgba(0, 26, 101, 0.4);
+  transition: all 500ms ease-in-out;
 }
 
 .card__about--container {
@@ -30,6 +36,14 @@
 
 .card__about--desc {
   color: #009aff;
+  font-size: 1.3rem;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  transition: all 500ms ease-in-out;
+}
+
+.red__text {
+  color: #ff003a;
+  transition: all 500ms ease-in-out;
 }
 
 .card__content {
@@ -64,10 +78,22 @@
   transition: all 500ms ease-in-out;
 }
 
+.red__link {
+  border-color: #ff003a;
+  transition: all 500ms ease-in-out;
+}
+
 .card__link:hover,
 .card__link:focus {
   background-color: #009aff;
   box-shadow: 0 0 6px 3px rgba(0, 154, 255, 0.8),
     4px 2px 12px rgba(0, 0, 0, 0.4);
   transform: scale(1.1);
+}
+
+.red__link:hover,
+.red__link:focus {
+  background-color: #ff003a;
+  box-shadow: 0 0 6px 3px rgba(255, 0, 58, 0.8),
+    4px 2px 12px rgba(0, 0, 0, 0.4);
 }

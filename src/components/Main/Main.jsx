@@ -10,24 +10,28 @@ import {
 } from 'react-icons/fa';
 import './Main.css'
 
-export default function Main() {
+export default function Main(props) {
+  const redTextShadow = props.redMode ? "red__text--shadow card__title" : "card__title"
+  const redText = props.redMode ? "red__text card__about--desc" : "card__about--desc"
+  const redLink = props.redMode ? "red__link card__link" : "card__link"
   return (
     <div className="card__container">
       <div className="card__toggler"></div>
-      <h1 className="card__title">Jane Smith</h1>
+      <h1 className={redTextShadow}>Jane Smith</h1>
       <div className="card__about--container">
         <p className="card__about">
-          <span className="card__about--desc">Age: &nbsp;</span> 24
+          <span className={redText}>Age: &nbsp;</span> 24
         </p>
         <p className="card__about">
-          <span className="card__about--desc">Years Active: &nbsp;</span> 3
+          <span className={redText}>Years Active: &nbsp;</span> 3
         </p>
         <p className="card__about">
-          <span className="card__about--desc">Services: &nbsp;</span> Acting,
+          <span className={redText}>Services: &nbsp;</span> Acting,
           Modeling, Singing
         </p>
         <p className="card__about">
-          <span className="card__about--desc">Location: &nbsp;</span>New York, NY
+          <span className={redText}>Location: &nbsp;</span>New York,
+          NY
         </p>
       </div>
       <p className="card__content">
@@ -38,29 +42,29 @@ export default function Main() {
       </p>
       <h3 className="card__links--title">My Links</h3>
       <div className="card__links">
-        <a href="#" className="card__link">
+        <a href="#" className={redLink}>
           <GiWireframeGlobe className="card__icon" />
         </a>
-        <a href="#" className="card__link">
-          <FaTiktok className="card__icon" /> 
+        <a href="#" className={redLink}>
+          <FaTiktok className="card__icon" />
         </a>
-        <a href="#" className="card__link">
-          <FaInstagram className="card__icon" /> 
+        <a href="#" className={redLink}>
+          <FaInstagram className="card__icon" />
         </a>
-        <a href="#" className="card__link">
-          <FaYoutube className="card__icon" /> 
+        <a href="#" className={redLink}>
+          <FaYoutube className="card__icon" />
         </a>
-        <a href="#" className="card__link">
-          <FaImdb className="card__icon" /> 
+        <a href="#" className={redLink}>
+          <FaImdb className="card__icon" />
         </a>
-        <a href="#" className="card__link">
+        <a href="#" className={redLink}>
           <FaTwitter className="card__icon" />
         </a>
-        <a href="#" className="card__link">
-          <FaTwitch className="card__icon" /> 
+        <a href="#" className={redLink}>
+          <FaTwitch className="card__icon" />
         </a>
-        <a href="#" className="card__link">
-          <FaEnvelope className="card__icon" /> 
+        <a href="#" className={redLink}>
+          <FaEnvelope className="card__icon" />
         </a>
       </div>
     </div>

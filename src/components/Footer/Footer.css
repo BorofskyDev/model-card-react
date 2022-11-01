@@ -1,0 +1,37 @@
+.footer {
+  height: 5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.footer__logo {
+  font-size: 0.9rem;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+}
+
+.logo__first {
+  font-size: 1rem;
+  color: #009aff;
+  transition: all 500ms ease-in-out;
+}
+
+.reverse__style {
+  color: #ff003a;
+  transition: all 500ms ease-in-out;
+}
+
+.footer__credit {
+    font-size: 0.9rem;
+}
+
+.footer__credit a {
+    text-decoration: none;
+    color: #F0F5FF;
+}

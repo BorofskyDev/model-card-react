@@ -10,12 +10,12 @@ function App() {
   function toggleRedMode(){
     setRedMode(prevState => !prevState)
   }
-
+  const redCard = redMode ? "red__main card" : "card"
   return (
-    <main className="card">
+    <main className={redCard}>
       <Header redMode={redMode} toggleRedMode={toggleRedMode} />
-      <Main />
-      <Footer />
+      <Main redMode={redMode} />
+      <Footer redMode={redMode} />
     </main>
   );
 }
