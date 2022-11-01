@@ -8,17 +8,27 @@ import {
   FaEnvelope,
   FaTwitch,
 } from 'react-icons/fa';
+import './Main.css'
 
 export default function Main() {
   return (
     <div className="card__container">
       <div className="card__toggler"></div>
-      <h1 className="card__title">Jane Smith</h1>\
+      <h1 className="card__title">Jane Smith</h1>
       <div className="card__about--container">
-        <p className="card__about">Age: 24</p>
-        <p className="card__about">Years Active: 3</p>
-        <p className="card__about">Experience In: Acting, Modeling, Singing</p>
-        <p className="card__about">Location: New York, NY</p>
+        <p className="card__about">
+          <span className="card__about--desc">Age: &nbsp;</span> 24
+        </p>
+        <p className="card__about">
+          <span className="card__about--desc">Years Active: &nbsp;</span> 3
+        </p>
+        <p className="card__about">
+          <span className="card__about--desc">Services: &nbsp;</span> Acting,
+          Modeling, Singing
+        </p>
+        <p className="card__about">
+          <span className="card__about--desc">Location: &nbsp;</span>New York, NY
+        </p>
       </div>
       <p className="card__content">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, nisi

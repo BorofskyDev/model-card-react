@@ -1,0 +1,36 @@
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.card__title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    text-shadow: 0 0 0.25em rgba(0, 154, 255, 0.8), 0 0 0.5em rgba(0, 26, 101, 0.4); 
+}
+
+.card__about--container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8em;
+    margin: 1.5em 0;
+}
+
+.card__about {
+    font-size: 1.1rem;
+    letter-spacing: 0.0625em;
+}
+
+.card__about--desc {
+    color: #009aff;
+}
+
+.card__content {
+    line-height: 1.4;
+}
