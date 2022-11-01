@@ -6,7 +6,7 @@ export default function Footer(props) {
   return (
     <footer className="footer">
       <p className="footer__logo">
-        A &lt;<span class={reverseStyle}>BorofskyDev</span> /&gt; creation
+        A &lt;<span className={reverseStyle}>BorofskyDev</span> /&gt; creation
       </p>
       <p className="footer__credit">
         Photos by{' '}
