@@ -1,36 +1,73 @@
 .card__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
 }
 
 .card__title {
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.125em;
-    text-shadow: 0 0 0.25em rgba(0, 154, 255, 0.8), 0 0 0.5em rgba(0, 26, 101, 0.4); 
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  text-shadow: 0 0 0.25em rgba(0, 154, 255, 0.8),
+    0 0 0.5em rgba(0, 26, 101, 0.4);
 }
 
 .card__about--container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 0.8em;
-    margin: 1.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8em;
+  margin: 1.5em 0;
 }
 
 .card__about {
-    font-size: 1.1rem;
-    letter-spacing: 0.0625em;
+  font-size: 1.1rem;
+  letter-spacing: 0.0625em;
 }
 
 .card__about--desc {
-    color: #009aff;
+  color: #009aff;
 }
 
 .card__content {
-    line-height: 1.4;
+  line-height: 1.4;
+}
+
+.card__links--title {
+  font-size: 1.6rem;
+}
+
+.card__links {
+  margin: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.card__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  font-size: 1.4rem;
+  color: #f0f5ff;
+  border: 1px solid #009aff;
+  border-radius: 50%;
+  box-shadow: 2px 1px 6px 3px rgba(0, 0, 0, 0.8),
+    4px 2px 12px rgba(0, 0, 0, 0.4);
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+
+.card__link:hover,
+.card__link:focus {
+  background-color: #009aff;
+  box-shadow: 0 0 6px 3px rgba(0, 154, 255, 0.8),
+    4px 2px 12px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
 }

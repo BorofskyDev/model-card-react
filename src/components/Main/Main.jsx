@@ -36,31 +36,31 @@ export default function Main() {
         dolorum, quos eveniet alias sint nam eligendi quibusdam sunt excepturi
         esse aliquid?
       </p>
-      <h3 className="card__links--title">Find me:</h3>
+      <h3 className="card__links--title">My Links</h3>
       <div className="card__links">
         <a href="#" className="card__link">
-          <GiWireframeGlobe className="card__icon" /> www.janesmith.com{' '}
+          <GiWireframeGlobe className="card__icon" />
         </a>
         <a href="#" className="card__link">
-          <FaTiktok className="card__icon" /> TikTok{' '}
+          <FaTiktok className="card__icon" /> 
         </a>
         <a href="#" className="card__link">
-          <FaInstagram className="card__icon" /> Instagram{' '}
+          <FaInstagram className="card__icon" /> 
         </a>
         <a href="#" className="card__link">
-          <FaYoutube className="card__icon" /> YouTube{' '}
+          <FaYoutube className="card__icon" /> 
         </a>
         <a href="#" className="card__link">
-          <FaImdb className="card__icon" /> IMDB{' '}
+          <FaImdb className="card__icon" /> 
         </a>
         <a href="#" className="card__link">
-          <FaTwitter className="card__icon" /> Twitter{' '}
+          <FaTwitter className="card__icon" />
         </a>
         <a href="#" className="card__link">
-          <FaTwitch className="card__icon" /> Twitch{' '}
+          <FaTwitch className="card__icon" /> 
         </a>
         <a href="#" className="card__link">
-          <FaEnvelope className="card__icon" /> Agent Contact{' '}
+          <FaEnvelope className="card__icon" /> 
         </a>
       </div>
     </div>
